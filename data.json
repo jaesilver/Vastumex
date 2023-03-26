@@ -47,14 +47,6 @@
         "location": "Chicago",
         "contact": "Bob Johnson",
         "email": "bob.johnson@example.com"
-      },
-      {
-        "id": 7,
-        "type": "Aluminium",
-        "quantity": "100 tons",
-        "location": "Chicago",
-        "contact": "Bob Johnson",
-        "email": "bob.johnson@example.com"
       }
     ]
   }
