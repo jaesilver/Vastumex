@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#75dab4" />
+    <title>Company Waste Filter</title>
+    <meta name="author" content="Themezinho">
+    <meta name="description" content="Tourog | Creative Agensy for Digital Age">
+    <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, modern, tourog, digital, studio, css, animation, transition, freelancers">
+
+    <!-- SOCIAL MEDIA META -->
+    <meta property="og:description" content="Tourog | Creative Agensy for Digital Age">
+    <meta property="og:image" content="http://www.themezinho.net/tourog/preview.png">
+    <meta property="og:site_name" content="tourog">
+    <meta property="og:title" content="tourog">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.themezinho.net/tourog">
+
+    <!-- TWITTER META -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@tourog">
+    <meta name="twitter:creator" content="@tourog">
+    <meta name="twitter:title" content="tourog">
+    <meta name="twitter:description" content="Tourog | Creative Agensy for Digital Age">
+    <meta name="twitter:image" content="http://www.themezinho.net/tourog/preview.png">
+
+    <!-- FAVICON FILES -->
+    <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="ico/favicon.png" rel="shortcut icon">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/hamburger.min.css">
+    <link rel="stylesheet" href="css/odometer.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <style>
+       
+       body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(images/plasticbottlewallpaper.jpg);
+    
+}
+    
+        .container {
+          width: 1000px;
+          height: 800px;
+          margin: 8% auto;
+          padding: 20px;
+          
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        h1 {
+          font-size: 32px;
+          margin: 0;
+          text-align: center;          
+        }
+    
+        .search-box {
+          margin-top: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        }
+    
+        .search-box input[type="text"] {
+          width: 80%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          border-radius: 20px;
+          outline: none;
+        }
+    
+        .search-box button[type="submit"] {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          font-size: 20px;
+          color: #666;
+        }
+    
+        .companies {
+          margin-top: 50px;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-gap: 20px;
+        }
+    
+        .company {
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        .company h2 {
+          font-size: 20px;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+    
+        .company p {
+          font-size: 16px;
+          margin: 0;
+        }
+      </style>
+
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1>Company Waste Filter</h1>
+    
+        <form class="search-box">
+          <input type="text" id="search" name="search" placeholder="Search for companies by waste type...">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    
+        <div class="companies">
+          <div class="company" data-waste-type="plastic">
+            <h2>Acme Inc.</h2>
+            <p>Plastic as raw material.</p>
+          </div>
+          <div class="company" data-waste-type="paper">
+            <h2>Global Corp.</h2>
+            <p>Paper as raw material.</p>
+          </div>
+          <div class="company" data-waste-type="glass">
+            <h2>Eco-friendly Co.</h2>
+            <p>Glass as raw material.</p>
+          </div>
+          <div class="company" data-waste-type="organic product">
+            <h2>Envriotech</h2>
+            <p>Organic products as raw materials.</p>
+          </div>
+            <div class="company" data-waste-type="Biodegradable plastic">
+                    <h2>Sustaina</h2>
+                    <p>Biodegradable plastic as raw materials</p>
+            </div>
+            <div class="company" data-waste-type="Paper">
+                <h2>Greencycle</h2>
+                <p>Paper as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Steel">
+                <h2>XYZ Enterprise</h2>
+                <p>Steel as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Aluminium">
+                <h2>Globe Industires</h2>
+                <p>Aluminium as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Copper">
+                <h2>Apex Manufacturing</h2>
+                <p>Copper as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Rubber">
+                <h2>Summit Solutions</h2>
+                <p>Rubber as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Aluminium">
+                <h2>XYZ Enterprises</h2>
+                <p>Aluminium as raw material</p>
+              </div>
+              <div class="company" data-waste-type="Sugarcane">
+                <h2>ABC companies</h2>
+                <p>Sugarcane as raw material</p>
+              </div>
+    </div>
+   
+
+    <!-- JS FILES -->
+    <script src="app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src='js/splitting.min.js'></script>
+    <script src='js/odometer.min.js'></script>
+    <script src='js/fancybox.min.js'></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/8c7f76cfae.js" crossorigin="anonymous"></script>
+  <script>
+    const searchInput = document.getElementById('search');
+    const companies = document.querySelectorAll('.company');
+
+    // Add input event listener for search box input
+    searchInput.addEventListener('input', function() {
+      const searchTerm = searchInput.value.toLowerCase();
+      companies.forEach(function(company) {
+        const wasteType = company.getAttribute('data-waste-type').toLowerCase();
+        if (wasteType.includes(searchTerm)) {
+          company.style.display = 'block';
+        } else {
+          company.style.display = 'none';
+        }
+      });
+    });
+
+    // Add submit event listener for search box form
+    const searchBox = document.querySelector('.search-box');
+    searchBox.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting
+      searchInput.blur(); // Remove focus from input field
+    });
+  </script>
+</body>
+
+</html>

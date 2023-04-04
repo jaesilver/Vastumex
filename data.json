@@ -1,0 +1,30 @@
+{
+    "listings": [
+      {
+        "id": 1,
+        "type": "Plastic",
+        "quantity": "50 tons",
+        "location": "New York City",
+        "contact": "John Smith",
+        "email": "john.smith@example.com"
+      },
+      {
+        "id": 2,
+        "type": "Paper",
+        "quantity": "20 tons",
+        "location": "Los Angeles",
+        "contact": "Jane Doe",
+        "email": "jane.doe@example.com"
+      },
+      {
+        "id": 3,
+        "type": "Metal",
+        "quantity": "100 tons",
+        "location": "Chicago",
+        "contact": "Bob Johnson",
+        "email": "bob.johnson@example.com"
+      }
+    
+    ]
+  }
+  
